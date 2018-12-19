@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="IdleSkin" width="580" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Group scaleX="1" width="580" height="930" scaleY="1" horizontalCenter="0" verticalCenter="0">
+        <e:Image anchorOffsetX="0" anchorOffsetY="0" source="idle_bg" left="0" right="0" top="0" bottom="0" />
+        <e:Rect fillAlpha="0.5" width="919.46" height="749.66" y="-149.66" x="-228" anchorOffsetY="0"
+                fillColor="0x938b64" anchorOffsetX="0"  visible="false"/>
+        <e:Rect fillAlpha="1" height="356.75" anchorOffsetY="0" fillColor="0x938b64"
+                 right="0" left="0" bottom="0"/>
+        <e:Image id="yourplace2" anchorOffsetX="-2" anchorOffsetY="0" source="dishang" width="336" height="97"
+                 scaleX="1.2" scaleY="1.2" horizontalCenter="-0.5" bottom="286" />
+        <e:Image id="card01" width="80" height="80" x="72.12" y="213.43" anchorOffsetX="0" anchorOffsetY="0"
+                 source="xiaociguaiZ_png" fillMode="scale" rotation="0.17" visible="false" />
+        <e:Image id="card03" width="80" height="80" x="333.96" y="213.43" anchorOffsetX="0" anchorOffsetY="0"
+                 source="xiaociguaiZ_png" fillMode="scale" rotation="0.17" visible="false" />
+        <e:Image id="card02" width="80" height="80" x="201.24" y="213.43" anchorOffsetX="0" anchorOffsetY="0"
+                 source="xiaociguaiZ_png" fillMode="scale" rotation="0.17" visible="false" />
+        <e:Image id="player" width="160" height="160" anchorOffsetX="0" anchorOffsetY="0"
+                 fillMode="scale" scaleX="1.5" scaleY="1.5" horizontalCenter="0" bottom="319"  source="charactor01_0"/>
+			<e:Button id="help" label="切换按钮" icon="fubenBtn" skinName="CustomBtn0Skin" scaleX="3" scaleY="3" bottom="84" horizontalCenter="0"/>
+			<e:Label text="挑战" x="254" y="791" size="40" textColor="0xff7d00" touchEnabled="false"/>
+			<e:Button label="出战队列" x="134" y="231" skinName="CustomBtn1Skin" width="91" height="70"/>
+			<e:Button label="武功秘籍" x="369.73" y="231" skinName="CustomBtn1Skin" width="90" height="70"/>
+			<e:Group width="158.82" height="40.9" y="323.56" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0.5">
+				<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.6"/>
+				<e:Label text="藏酋霸道猴" size="26" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Label text="泰山" x="325.06" y="80" anchorOffsetX="0" width="125.52" anchorOffsetY="0" height="60.3" textColor="0x2a6600" size="36" fontFamily="Microsoft YaHei"/>
+    </e:Group>
+
+		<!--<e:Image top="0" bottom="-6" source="tongyongmianbanbg2" width="580" horizontalCenter="0" scale9Grid="15,12,2,3" anchorOffsetY="0" x="0" y="0" scaleX="1" scaleY="1"/>
+	<e:Group width="556" horizontalCenter="0" bottom="13">
+		<e:Image source="bantoumingkuang4" x="3" width="278" height="90"/>
+		<e:Image source="bantoumingkuang4" scaleX="-1" right="-3" width="278" height="90"/>
+	</e:Group>
+		<e:Image width="570" horizontalCenter="0" source="tongyongmianbanbg" scale9Grid="19,12,14,25" top="44" bottom="43" anchorOffsetY="0" x="5" y="44" scaleX="1" scaleY="1"/>
+		<e:Group id="container" anchorOffsetX="0" anchorOffsetY="0" top="51" bottom="114" left="13" right="13" x="13" y="52" scaleX="1" scaleY="1"/>
+		<e:Image width="556" height="90" x="13.3" source="bantoumingkuang3" scale9Grid="11,26,18,14" bottom="166" y="616" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="imageTitle" horizontalCenter="-160" top="9" source="biaoti_suipian" x="60" y="8" scaleX="1" scaleY="1"/>
+		<e:Button id="help" label="按钮" icon="wenhao" horizontalCenter="-246" scaleX="0.9" scaleY="0.9" top="8" x="25" y="8" skinName="CustomBtn0Skin"/>
+	<e:TabBar id="down_tab"  itemRendererSkinName="CustomTabItemSkinSkin" height="50" anchorOffsetY="0"  anchorOffsetX="0" bottom="57" y="769" scaleX="1" scaleY="1" horizontalCenter="0" maxWidth="560">
+        <e:ArrayCollection>
+			<e:Array>
+			<e:Object/>
+			<e:Object/>
+			<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+    </e:TabBar>-->
+
+</e:Skin>

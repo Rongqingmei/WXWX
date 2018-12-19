@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="580" height="930">
+	<e:Group width="480" height="400" horizontalCenter="0" verticalCenter="0" scaleX="1" scaleY="1">
+		<e:Rect id="bg" height="300" anchorOffsetX="0" anchorOffsetY="0"  left="0" right="0" top="0"  fillColor="0xacaf80"/>
+		<e:Image id="yourplace" width="258" height="74" x="225" y="86" anchorOffsetX="0" anchorOffsetY="0" source="dishang"/>
+		<e:Image id="myplace" width="285" height="85" x="-9" y="186" anchorOffsetX="0" anchorOffsetY="0" source="dishang"/>
+		<e:Group id="yourObj"  width="120" height="120" x="288" y="36" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="yourObjima" anchorOffsetX="0" anchorOffsetY="0" source="tulangquan01" left="0" right="0" top="0" bottom="0"/>
+		</e:Group>
+		<e:Group id="myObj" x="85.5" y="125" anchorOffsetX="0" anchorOffsetY="0" width="120" height="110">
+			<e:Image id="myObjima" anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" scaleX="-1" scaleY="1" left="-6" right="6" top="3" bottom="-3" source="charactor01_1"/>
+		</e:Group>
+		<e:Group id="MyInfo" width="176" height="65" x="278" y="145" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image top="0" bottom="-4" left="0" right="-5" source="Panel_back" scale9Grid="10,9,34,36"/>
+			<e:Label id="MyName" text="小磁怪" textColor="0x000000" bold="true" size="19" fontFamily="KaiTi" textAlign="left" left="15" top="8"/>
+			<e:Label id="MyLv" text="Lv71" textColor="0x000000" size="17" fontFamily="Microsoft YaHei" textAlign="right" right="12" top="7"/>
+			<e:ProgressBar id="MyHp" width="99.5" height="6.5" x="62" y="35.5" anchorOffsetX="0" anchorOffsetY="0" value="50"/>
+		</e:Group>
+		<e:Group id="YourInfo" width="176" height="51" x="21.5" y="17" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image top="0" bottom="-4" left="0" right="-5" source="Panel_back" scale9Grid="10,9,34,36"/>
+			<e:Label id="YourName" text="土狼犬" textColor="0x000000" bold="true" size="19" fontFamily="KaiTi" textAlign="left" left="15" top="8"/>
+			<e:Label id="YourLv" text="Lv71" textColor="0x000000" size="17" fontFamily="Microsoft YaHei" textAlign="right" right="12" top="7"/>
+			<e:ProgressBar id="YourHp" width="99.5" height="6.5" x="62" y="31" anchorOffsetX="0" anchorOffsetY="0" value="50"/>
+		</e:Group>
+		<e:Group id="Message" width="485" height="91" x="0" y="213" anchorOffsetX="0" anchorOffsetY="0" alpha="0.9">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" source="Panel_back" scale9Grid="10,9,34,36" alpha="1" left="-3" right="-4" top="-1" bottom="-5"/>
+			<e:Label id="msgLabel" text="文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字" y="23.5" anchorOffsetX="0" width="309" anchorOffsetY="0" height="24" textColor="0x000000" fontFamily="Microsoft YaHei" size="18" textAlign="left" left="77"/>
+		</e:Group>
+		<e:Group id="Test" width="471" height="88" y="307" anchorOffsetX="0" anchorOffsetY="0" x="4">
+			<e:Button id="testmsg" label="文字框" x="5.5" y="2" scaleX="1" scaleY="1" anchorOffsetX="0" width="88" anchorOffsetY="0" height="36"/>
+			<e:Button id="testattack" label="攻击" x="96" y="2" anchorOffsetX="0" width="75" anchorOffsetY="0" height="36"/>
+			<e:Button id="testbeattack" label="被攻击" x="173" y="2" anchorOffsetX="0" width="80" anchorOffsetY="0" height="37"/>
+			<e:Button id="testskill" label="技能" x="256" y="2" anchorOffsetX="0" width="90" anchorOffsetY="0" height="37"/>
+			<e:Button id="testreset" label="恢复" x="348" y="2" anchorOffsetX="0" width="85" anchorOffsetY="0" height="37"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LoadingUISkin" width="480" height="400" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="482" height="397" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="1" verticalCenter="-1.5">
+		<e:Rect id="zuoRect" width="476" height="800" x="-63" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xeaeaea" scaleX="1" scaleY="1" verticalCenter="0.5"/>
+		<e:Rect id="youRect" width="445" height="800" x="75" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xffffff" scaleX="1" scaleY="1" verticalCenter="0.5"/>
+		<e:Label id="txtMsg" text="资源加载中..." width="249" size="25" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1" textColor="0x000000" verticalCenter="0" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

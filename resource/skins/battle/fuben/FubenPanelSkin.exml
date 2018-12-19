@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FubenPanelSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="Bg" width="580" height="930" fillAlpha="0.8" horizontalCenter="0" verticalCenter="0"/>
+
+<e:Group width="506" height="712" horizontalCenter="0" verticalCenter="-40">
+
+
+
+		<e:Group horizontalCenter="0" bottom="-40">
+
+			<e:Image source="bantoutiaobg" height="30" scale9Grid="128,2,15,41" width="300"/>
+
+			<e:Label text="点击空白区域关闭窗口" size="18" bold="true" textColor="0x7E6437" horizontalCenter="0" verticalCenter="0"/>
+
+		</e:Group>
+
+		<e:Image source="tongyongkuang3bg" scale9Grid="9,4,32,37" left="0" right="0" top="0" bottom="0"/>
+
+		<!--<e:Image source="bossbg_png" left="6" right="6" top="0" bottom="6"/>-->
+
+		<e:Image source="tongyongkuang3tou" left="0" right="0" y="0" scale9Grid="67,0,274,47"/>
+	<e:Image id="BG" anchorOffsetX="0" anchorOffsetY="0" source="fuben_bg" left="6" right="6" bottom="6" top="50"/>
+
+		<e:Label text="挑战路线" size="24" y="11" horizontalCenter="0" textColor="0xbd600d" bold="true"/>
+
+
+
+		<e:Button id="closeBtn0" label="按钮" right="2" y="0" skinName="CustomBtn0Skin" visible="false"/>
+
+		<e:Group id="boss" y="357" scaleX="-1" horizontalCenter="-0.5">
+
+			<e:Image id="bossImg" source=""/>
+
+		</e:Group>
+
+		<e:List id="list" horizontalCenter="0" bottom="110">
+
+			<e:layout>
+
+			<e:HorizontalLayout horizontalAlign="center" gap="6"/>
+
+			</e:layout>
+
+		</e:List>
+
+		<e:Button id="enter" label="进入战场" width="156" height="60" horizontalCenter="0" bottom="34" skinName="CustomBtn1Skin" visible="false"/>
+
+
+
+		<e:Group id="tips" horizontalCenter="0" y="60" visible="false">
+
+			<e:Label text="你可以进入" size="18" textColor="0x9F946D" x="50" y="0"/>
+
+			<e:Label id="level0" text="初级战场" size="18" x="59" y="0" textColor="0xf8b141"/>
+
+			<e:Label id="level1" text="（3转可进入中级战场）" size="18" textColor="0x9F946D" x="0" y="0"/>
+
+			<e:layout>
+
+				<e:HorizontalLayout gap="2"/>
+
+			</e:layout>
+
+		</e:Group>
+
+		<e:Image id="help" x="400" y="50" source="wenhao" visible="false"/>
+	<e:Group width="425" height="534" anchorOffsetY="0" horizontalCenter="0.5" verticalCenter="53">
+		<e:Group id="BOSS10" x="151.17" y="-66.32" anchorOffsetX="0" anchorOffsetY="0" alpha="0.9">
+			<e:Label text="文字" anchorOffsetX="0" anchorOffsetY="0" textColor="0x000000" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="-5.33" horizontalCenter="0" visible="false"/>
+			<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="tulangquan01" scaleX="1.5" scaleY="1.5"/>
+			<e:Image id="star10_0" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="-35" visible="false"/>
+			<e:Image id="star10_1" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="-5" visible="false"/>
+			<e:Image id="star10_2" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="25" visible="false"/>
+			<e:Group id="pass10" width="91" height="39" x="12" y="39" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Image width="86" height="42" x="2" y="2" anchorOffsetX="0" anchorOffsetY="0" source="Panel_back" scale9Grid="8,8,38,38" scaleX="1" scaleY="1"/>
+				<e:Label text="已通过" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="11.669999999999959" horizontalCenter="0" textColor="0x59ff5f" x="13.999999999999972" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="BOSS9" x="246.17" y="0.68" anchorOffsetX="0" anchorOffsetY="0" alpha="0.9">
+			<e:Label text="文字" anchorOffsetX="0" anchorOffsetY="0" textColor="0x000000" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="-5.33" horizontalCenter="0" visible="false"/>
+			<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="tulangquan01" scaleX="1.5" scaleY="1.5"/>
+			<e:Image id="star9_0" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="-35" visible="false"/>
+			<e:Image id="star9_1" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="-5" visible="false"/>
+			<e:Image id="star9_2" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="25" visible="false"/>
+			<e:Group id="pass9" width="91" height="39" x="12" y="39" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Image width="86" height="42" x="2" y="2" anchorOffsetX="0" anchorOffsetY="0" source="Panel_back" scale9Grid="8,8,38,38" scaleX="1" scaleY="1"/>
+				<e:Label text="已通过" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="11.669999999999959" horizontalCenter="0" textColor="0x59ff5f" x="13.999999999999972" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="BOSS8" x="147.17" y="42.68" anchorOffsetX="0" anchorOffsetY="0" alpha="0.9">
+			<e:Label text="文字" anchorOffsetX="0" anchorOffsetY="0" textColor="0x000000" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="-5.33" horizontalCenter="0" visible="false"/>
+			<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="tulangquan01" scaleX="1.5" scaleY="1.5"/>
+			<e:Image id="star8_0" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="-35" visible="false"/>
+			<e:Image id="star8_1" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="-5" visible="false"/>
+			<e:Image id="star8_2" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="25" visible="false"/>
+			<e:Group id="pass8" width="91" height="39" x="12" y="39" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Image width="86" height="42" x="2" y="2" anchorOffsetX="0" anchorOffsetY="0" source="Panel_back" scale9Grid="8,8,38,38" scaleX="1" scaleY="1"/>
+				<e:Label text="已通过" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="11.669999999999959" horizontalCenter="0" textColor="0x59ff5f" x="13.999999999999972" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="BOSS7" x="37.17" y="78.68" anchorOffsetX="0" anchorOffsetY="0" alpha="0.9">
+			<e:Label text="文字" anchorOffsetX="0" anchorOffsetY="0" textColor="0x000000" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="-5.33" horizontalCenter="0" visible="false"/>
+			<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="tulangquan01" scaleX="1.5" scaleY="1.5"/>
+			<e:Image id="star7_0" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="-35" visible="false"/>
+			<e:Image id="star7_1" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="-5" visible="false"/>
+			<e:Image id="star7_2" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="25" visible="false"/>
+			<e:Group id="pass7" width="91" height="39" x="12" y="39" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Image width="86" height="42" x="2" y="2" anchorOffsetX="0" anchorOffsetY="0" source="Panel_back" scale9Grid="8,8,38,38" scaleX="1" scaleY="1"/>
+				<e:Label text="已通过" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="11.669999999999959" horizontalCenter="0" textColor="0x59ff5f" x="13.999999999999972" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="BOSS6" x="152.17" y="126.68" anchorOffsetX="0" anchorOffsetY="0" alpha="0.9">
+			<e:Label text="文字" anchorOffsetX="0" anchorOffsetY="0" textColor="0x000000" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="-5.33" horizontalCenter="0" visible="false"/>
+			<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="tulangquan01" scaleX="1.5" scaleY="1.5"/>
+			<e:Image id="star6_0" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="-35" visible="false"/>
+			<e:Image id="star6_1" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="-5" visible="false"/>
+			<e:Image id="star6_2" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="25" visible="false"/>
+			<e:Group id="pass6" width="91" height="39" x="12" y="39" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Image width="86" height="42" x="2" y="2" anchorOffsetX="0" anchorOffsetY="0" source="Panel_back" scale9Grid="8,8,38,38" scaleX="1" scaleY="1"/>
+				<e:Label text="已通过" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="11.669999999999959" horizontalCenter="0" textColor="0x59ff5f" x="13.999999999999972" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="BOSS5" x="269.17" y="147.68" anchorOffsetX="0" anchorOffsetY="0" alpha="0.9">
+			<e:Label text="文字" anchorOffsetX="0" anchorOffsetY="0" textColor="0x000000" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="-5.33" horizontalCenter="0" visible="false"/>
+			<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="tulangquan01" scaleX="1.5" scaleY="1.5"/>
+			<e:Image id="star5_0" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="-35" visible="false"/>
+			<e:Image id="star5_1" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="-5" visible="false"/>
+			<e:Image id="star5_2" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="25" visible="false"/>
+			<e:Group id="pass5" width="91" height="39" x="12" y="39" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Image width="86" height="42" x="2" y="2" anchorOffsetX="0" anchorOffsetY="0" source="Panel_back" scale9Grid="8,8,38,38" scaleX="1" scaleY="1"/>
+				<e:Label text="已通过" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="11.669999999999959" horizontalCenter="0" textColor="0x59ff5f" x="13.999999999999972" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="BOSS4" x="137.17" y="218.68" anchorOffsetX="0" anchorOffsetY="0" alpha="0.9">
+			<e:Label text="文字" anchorOffsetX="0" anchorOffsetY="0" textColor="0x000000" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="-5.33" horizontalCenter="0" visible="false"/>
+			<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="tulangquan01" scaleX="1.5" scaleY="1.5"/>
+			<e:Image id="star4_0" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="-35" visible="false"/>
+			<e:Image id="star4_1" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="-5" visible="false"/>
+			<e:Image id="star4_2" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="25" visible="false"/>
+			<e:Group id="pass4" width="91" height="39" x="12" y="39" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Image width="86" height="42" x="2" y="2" anchorOffsetX="0" anchorOffsetY="0" source="Panel_back" scale9Grid="8,8,38,38" scaleX="1" scaleY="1"/>
+				<e:Label text="已通过" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="11.669999999999959" horizontalCenter="0" textColor="0x59ff5f" x="13.999999999999972" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="BOSS3" x="13.17" y="276.68" anchorOffsetX="0" anchorOffsetY="0" alpha="0.9">
+			<e:Label text="文字" anchorOffsetX="0" anchorOffsetY="0" textColor="0x000000" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="-5.33" horizontalCenter="0" visible="false"/>
+			<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="tulangquan01" scaleX="1.5" scaleY="1.5"/>
+			<e:Image id="star3_0" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="-35"/>
+			<e:Image id="star3_1" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="-5"/>
+			<e:Image id="star3_2" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="25"/>
+			<e:Group id="pass3" width="91" height="39" x="12" y="39" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Image width="86" height="42" x="2" y="2" anchorOffsetX="0" anchorOffsetY="0" source="Panel_back" scale9Grid="8,8,38,38" scaleX="1" scaleY="1"/>
+				<e:Label text="已通过" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="11.669999999999959" horizontalCenter="0" textColor="0x59ff5f" x="13.999999999999972" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="BOSS2" x="176.17" y="310.68" anchorOffsetX="0" anchorOffsetY="0" alpha="0.9">
+			<e:Label text="文字" anchorOffsetX="0" anchorOffsetY="0" textColor="0x000000" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="-5.33" horizontalCenter="0" visible="false"/>
+			<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="tulangquan01" scaleX="1.5" scaleY="1.5"/>
+			<e:Image id="star2_0" y="-4.02" scaleX="0.8" scaleY="0.8" horizontalCenter="-35" source="star2"/>
+			<e:Image id="star2_1" y="-4.02" scaleX="0.8" scaleY="0.8" horizontalCenter="-5" source="star2"/>
+			<e:Image id="star2_2" y="-4.02" scaleX="0.8" scaleY="0.8" horizontalCenter="25" source="star2"/>
+			<e:Group id="pass2" width="91" height="39" x="12" y="39" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Image width="86" height="42" x="2" y="2" anchorOffsetX="0" anchorOffsetY="0" source="Panel_back" scale9Grid="8,8,38,38" scaleX="1" scaleY="1"/>
+				<e:Label text="已通过" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="11.669999999999959" horizontalCenter="0" textColor="0x59ff5f" x="13.999999999999972" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="BOSS1" x="335.17" y="344.68" anchorOffsetX="0" anchorOffsetY="0" alpha="0.9">
+			<e:Label text="文字" anchorOffsetX="0" anchorOffsetY="0" textColor="0x000000" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="-5.33" horizontalCenter="0" visible="false"/>
+			<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="tulangquan01" scaleX="1.5" scaleY="1.5"/>
+			<e:Image id="star1_0" y="-4.02" scaleX="0.8" scaleY="0.8" horizontalCenter="-35" source="star2"/>
+			<e:Image id="star1_1" y="-4.02" scaleX="0.8" scaleY="0.8" horizontalCenter="-5" source="star2"/>
+			<e:Image id="star1_2" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="25"/>
+			<e:Group id="pass1" width="91" height="39" x="12" y="39" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Image width="86" height="42" x="2" y="2" anchorOffsetX="0" anchorOffsetY="0" source="Panel_back" scale9Grid="8,8,38,38" scaleX="1" scaleY="1"/>
+				<e:Label text="已通过" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="11.669999999999959" horizontalCenter="0" textColor="0x59ff5f" x="13.999999999999972" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="BOSS0" x="152.17" y="429.68" anchorOffsetX="0" anchorOffsetY="0" alpha="0.9">
+			<e:Image x="0" y="3" anchorOffsetX="0" anchorOffsetY="0" source="tulangquan01" scaleX="1.5" scaleY="1.5"/>
+			<e:Image id="star0_0" y="-4.02" scaleX="0.8" scaleY="0.8" horizontalCenter="-35" source="star2"/>	
+			<e:Image id="star0_1" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="-5"/>
+			<e:Image id="star0_2" y="-4.02" source="star1" scaleX="0.8" scaleY="0.8" horizontalCenter="25"/>
+			<e:Group id="pass0" width="91" height="39" x="12" y="39" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Image width="86" height="42" x="2" y="2" anchorOffsetX="0" anchorOffsetY="0" source="Panel_back" scale9Grid="8,8,38,38" scaleX="1" scaleY="1"/>
+				<e:Label text="已通过" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" size="18" textAlign="left" y="11.669999999999959" horizontalCenter="0" textColor="0x59ff5f" x="13.999999999999972" scaleX="1" scaleY="1"/>
+			</e:Group>		
+		</e:Group>
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+	<e:Label text="泰山之巅" x="41.67" y="69.18" anchorOffsetX="0" width="59" anchorOffsetY="0" height="225" size="51" textColor="0xffffff" fontFamily="NSimSun"/>
+
+	</e:Group>
+
+</e:Skin>
